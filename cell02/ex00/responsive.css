@@ -1,0 +1,15 @@
+table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid black;
+        width: 200px;
+        height: 100px;
+    }
+    .Green {
+        background-color: green;
+    }
+    .Red {
+        background-color: red;
+    }

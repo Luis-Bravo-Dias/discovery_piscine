@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/087/133/562/large/kazu_arts-group-photo-gen-4-5.jpg?1744977541");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.second-image {
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/079/759/272/large/kazu_arts-goru-cinema.jpg?1725744130");
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 36px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.text {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    padding: 100px 0;
+}

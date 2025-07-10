@@ -1,0 +1,71 @@
+details{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+details > summary {
+    padding: 0.5rem;
+    background-color: black;
+    cursor: pointer;
+    color: aqua;
+    width: 100%;
+}
+
+details > ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    border: 1px solid aquamarine;
+    color: white;
+    padding: 1rem;
+}
+
+details[open] > ul {
+    display: block;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+img {
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: aqua;
+    font-size: 500%;
+    border: 1px solid aqua;
+    border-radius: 50px;
+    background-color: black;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: aqua;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
