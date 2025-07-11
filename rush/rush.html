@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Currículo</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<style>
+    img {
+        height: 40%;
+        width: 40%;
+    }
+    body {
+        padding-top: 70px;
+        background-color: #f8f9fa;
+        font-family: Arial, sans-serif;
+    }
+    .hero-section img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid white;
+        margin-bottom: 20px;
+    }
+</style>
+<body>
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Currículo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experiência</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Educação</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Inicial -->
+    <section id="about" class="hero-section">
+        <div class="container">
+            <img src="https://cdna.artstation.com/p/assets/images/images/083/255/240/large/kazu_arts-comic-4.jpg?1735329933" alt="Foto de Perfil">
+            <h1>João Silva</h1>
+            <p>Desenvolvedor Web</p>
+        </div>
+    </section>
+
+    <!-- Seção de Experiência -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2>Experiência Profissional</h2>
+            <p><strong>Desenvolvedor Front-End</strong> - Empresa XYZ (2023 - Presente)</p>
+            <p>Desenvolvimento de interfaces web responsivas utilizando HTML, CSS e JavaScript.</p>
+            <p><strong>Estagiário de TI</strong> - Empresa ABC (2021 - 2023)</p>
+            <p>Suporte na criação de páginas web e manutenção de sistemas internos.</p>
+        </div>
+    </section>
+
+    <!-- Seção de Educação -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2>Educação</h2>
+            <p><strong>Bacharelado em Ciência da Computação</strong> - Universidade Federal (2019 - 2023)</p>
+            <p><strong>Curso de Desenvolvimento Web</strong> - Plataforma Online (2020)</p>
+        </div>
+    </section>
+
+    <!-- Links para Currículos -->
+    <section class="resume-links">
+        <div class="container">
+            <h3>Meus Currículos</h3>
+            <a href="curriculo1.pdf" class="btn btn-primary">Currículo 1</a>
+            <a href="curriculo2.pdf" class="btn btn-primary">Currículo 2</a>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
